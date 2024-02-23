@@ -24,4 +24,25 @@ body
 .box-1
 {
     min-width: 300px;
+    position: relative;
+}
+#hover-content {
+    display:none;
+}
+#parent:hover #hover-content {
+    display:block;
+}
+.after-hover
+{
+    position: absolute;
+    top: 100%;
+    background-color: #1C202A;
+    height: 100%;
+    transition: all 0.1s ease-in-out;
+   
+}
+
+.box-1:hover .after-hover{
+    top:0;
+    display: block;
 }
