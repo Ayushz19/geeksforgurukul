@@ -1,4 +1,7 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
+
 import styles from "./Section.css";
 import image1 from "./img1.svg";
 import logo1 from "./logo1.svg";
@@ -20,7 +23,7 @@ const Section = () => {
         </p>
         <Marquee pauseOnHover={true}>
           <div className="main-boxes mt-[-15px] ">
-            <div className="box-1 w-auto inline-block  relative overflow-hidden md:mx-[20px] mx-[10px] flex flex-col justify-between items-center dark:bg-[#191C1E] bg-[#D1FFD0] w-[220px] md:w-[280px] h-[350px] md:h-[409px] rounded-[20px]">
+            <div className="box-1 w-auto   relative overflow-hidden md:mx-[20px] mx-[10px] flex flex-col justify-between items-center dark:bg-[#191C1E] bg-[#D1FFD0]  md:w-[280px] h-[350px] md:h-[409px] rounded-[20px]">
               <div className="">
                 <img src={image1} alt="" className="" />
               </div>
@@ -65,7 +68,7 @@ const Section = () => {
               </div>
             </div>
 
-            <div className="box-1 w-auto inline-block  relative overflow-hidden md:mx-[20px] mx-[10px] flex flex-col justify-between items-center dark:bg-[#191C1E] bg-[#D1FFD0] w-[220px] md:w-[280px] h-[350px] md:h-[409px] rounded-[20px]">
+            <div className="box-1 w-auto  relative overflow-hidden md:mx-[20px] mx-[10px] flex flex-col justify-between items-center dark:bg-[#191C1E] bg-[#D1FFD0] md:w-[280px] h-[350px] md:h-[409px] rounded-[20px]">
               <div className="">
                 <img src={image1} alt="" className="" />
               </div>
@@ -109,7 +112,7 @@ const Section = () => {
                 </div>
               </div>
             </div>
-            <div className="box-1 w-auto inline-block  relative overflow-hidden md:mx-[20px] mx-[10px] flex flex-col justify-between items-center dark:bg-[#191C1E] bg-[#D1FFD0] w-[220px] md:w-[280px] h-[350px] md:h-[409px] rounded-[20px]">
+            <div className="box-1 w-auto  relative overflow-hidden md:mx-[20px] mx-[10px] flex flex-col justify-between items-center dark:bg-[#191C1E] bg-[#D1FFD0] md:w-[280px] h-[350px] md:h-[409px] rounded-[20px]">
               <div className="">
                 <img src={image1} alt="" className="" />
               </div>
@@ -153,7 +156,7 @@ const Section = () => {
                 </div>
               </div>
             </div>
-            <div className="box-1 w-auto inline-block  relative overflow-hidden md:mx-[20px] mx-[10px] flex flex-col justify-between items-center dark:bg-[#191C1E] bg-[#D1FFD0] w-[220px] md:w-[280px] h-[350px] md:h-[409px] rounded-[20px]">
+            <div className="box-1 w-auto  relative overflow-hidden md:mx-[20px] mx-[10px] flex flex-col justify-between items-center dark:bg-[#191C1E] bg-[#D1FFD0] md:w-[280px] h-[350px] md:h-[409px] rounded-[20px]">
               <div className="">
                 <img src={image1} alt="" className="" />
               </div>
@@ -197,7 +200,7 @@ const Section = () => {
                 </div>
               </div>
             </div>
-            <div className="box-1 w-auto inline-block  relative overflow-hidden md:mx-[20px] mx-[10px] flex flex-col justify-between items-center dark:bg-[#191C1E] bg-[#D1FFD0] w-[220px] md:w-[280px] h-[350px] md:h-[409px] rounded-[20px]">
+            <div className="box-1 w-auto  relative overflow-hidden md:mx-[20px] mx-[10px] flex flex-col justify-between items-center dark:bg-[#191C1E] bg-[#D1FFD0] md:w-[280px] h-[350px] md:h-[409px] rounded-[20px]">
               <div className="">
                 <img src={image1} alt="" className="" />
               </div>
@@ -241,7 +244,7 @@ const Section = () => {
                 </div>
               </div>
             </div>
-            <div className="box-1 w-auto inline-block  relative overflow-hidden md:mx-[20px] mx-[10px] flex flex-col justify-between items-center dark:bg-[#191C1E] bg-[#D1FFD0] w-[220px] md:w-[280px] h-[350px] md:h-[409px] rounded-[20px]">
+            <div className="box-1 w-auto  relative overflow-hidden md:mx-[20px] mx-[10px] flex flex-col justify-between items-center dark:bg-[#191C1E] bg-[#D1FFD0] md:w-[280px] h-[350px] md:h-[409px] rounded-[20px]">
               <div className="">
                 <img src={image1} alt="" className="" />
               </div>
